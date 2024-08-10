@@ -1,22 +1,25 @@
 function App() {
   return (
     <>
-      <main className="max-w-4xl mx-auto flex px-4">
-        <div className="py-8">
-          <h1 className="text-3xl font-bold uppercase mb-8">
-            URL to Video
-            <br /> with power of AI
+      <main className="max-w-4xl mx-auto flex gap-8 px-4">
+        <div className="py-8 flex flex-col justify-center">
+          <h1 className="text-4xl font-bold uppercase mb-4">
+          <span className="text-5xl">URL to Video</span>
+            <br/>
+            <span className="bg-gradient-to-br from-emerald-300 to-sky-300 bg-clip-text text-transparent">with power of AI</span>
           </h1>
-
-          <form className="border-2 rounded-full">
+          <form className="grid gap-2 overflow-hidden">
             <input
-            className="bg-transparent text-white px-4 py-2 "
+            className="bg-transparent border-2 rounded-full  text-white px-4 py-2 "
             type="url" placeholder="https://..." />
-            <button type="submit">Create video</button>
+            <button className="bg-emerald-500 text-white px-4 py-2 rounded-full uppercase"
+            type="submit">Create&nbsp;Video</button>
           </form>
         </div>
-        <div className="p-8">
-          <div className="bg-gray-200 w-[240px] h-[380px]">a</div>
+        <div className="py-4">
+          <div className="bg-gray-200 w-[240px] h-[380px] text-gray-500 rounded-2xl p-8">
+            video here
+          </div>
         </div>
       </main>
     </>
