@@ -2,8 +2,8 @@ function App() {
   return (
     <>
     <main className="max-w-2xl mx-auto flex px-4">
-      <div className="p-8">
-      <h1 className="text-4xl font-bold">URL to Video<br/> with power of AI</h1>
+      <div className="py-8">
+      <h1 className="text-3xl font-bold uppercase mb-4">URL to Video<br/> with power of AI</h1>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
         voluptatum eligendi voluptates tempora praesentium, possimus impedit
