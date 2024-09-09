@@ -13,7 +13,7 @@ function App() {
             className="bg-transparent border-2 rounded-full  text-white px-4 py-2 "
             type="url" placeholder="https://..." />
             <button className="bg-emerald-500 text-white px-4 py-2 rounded-full uppercase"
-            type="submit">Create&nbsp;Video</button>
+            type="submit">Create&nbsp;Videos</button>
           </form>
         </div>
         <div className="py-4">
